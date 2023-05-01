@@ -14,5 +14,8 @@ export default defineConfig({
   shortcuts: {
     container: "max-w-5xl mx-auto px-3",
   },
+  rules: [
+    ['arial', { "font-family": 'Arial' }],
+  ],
   transformers: [transformerDirectives(), transformerVariantGroup()]
 });
